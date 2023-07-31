@@ -1,0 +1,177 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+
+  #one{
+    background-color:#32354f;
+    color: white;
+    height: 30em;
+  }
+
+  a{
+    color: white;
+  }
+
+#header{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+
+#header .logo{
+   text-decoration: none;
+   line-height: 4em;
+   font-size:10px;
+   padding-left: 30px;
+}
+
+#header  a[href="#menu"]{
+    margin-left: 900px;
+    text-decoration: none;
+    font-size:10px;
+}
+p .getstarted{
+  color: white;
+  border: 2px solid white;
+  line-height: 4em;
+  border-radius: 2px;
+  padding: 12px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-left: 60px;
+  margin-top: 100px;
+
+}
+
+.major{
+    padding-left: 6em;
+    line-height: 2em;
+    padding-top: 5em;
+}
+.content p{
+     display: block;
+     letter-spacing: 2px;
+     line-height: 0;
+     padding-top: 20px;
+     font-size: 0.7em;
+     text-transform: uppercase;
+    }
+
+    #two{
+        background-color:#2f324b;
+        color: white;
+        padding: 30px;
+    }
+
+    .inner{
+        line-height: 2em;
+        padding: 2em 0 2em 5em ;
+    }
+
+    #two .getstarted{
+        color: white;
+        border: 2px solid white;
+        line-height: 4em;
+        border-radius: 2px;
+        padding: 12px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        margin-right: 60px; 
+        font-size: 0.8em;
+
+    }
+
+    #three{
+        text-transform: uppercase;
+        font-size: 0.8em;
+        background-color: #242943;
+        line-height: 5em;
+        /* padding: 2em 0 2em 5em ; */
+        color: white;
+        letter-spacing: 2px;
+        /* padding-bottom: 30px; */
+        padding-left: 100px;
+        padding-top: 30px;
+    }
+
+    input[type="submit"] {
+        background-color: #ffff;
+        color: #242943 ;
+        padding: 12px 50px;
+        border: 2px solid white ;
+        border-radius: 2px;
+        letter-spacing:0.25em;
+        text-align: center;
+    }
+
+    input[type="reset"]{
+        color: white;
+        padding: 12px 50px;
+        border-radius: 2px;
+        border: 2px solid white;
+        letter-spacing:0.25em;
+        text-align: center;
+        background-color: #242943;
+    }
+
+    #name{
+        padding: 8px 20px;
+        background-color:#2a2f4a ;
+        border-color: #2a2f4a;
+        border: 2px solid #2a2f4a;
+    }
+    #email{
+        padding: 8px 20px;
+        background-color:#2a2f4a ;
+        border-color: #2a2f4a;
+        border: 2px solid #2a2f4a;
+    }
+
+    textarea{
+        padding: 10px 20px;
+        background-color:#2a2f4a ;
+        border-color: #2a2f4a;
+        border: 2px solid #2a2f4a;
+    }
+
+    #four{
+        text-transform: uppercase;
+        background-color: #242943;
+        padding: 2em 0 2em 5em ;
+        color: white;
+        padding-bottom: 30px;
+        font-size: 0.8em;
+        padding-left: 100px;
+    }
+h3{
+    color: #ffffff;
+    letter-spacing: 0.025em;
+    line-height: 1.65;
+    letter-spacing: 0.025em;
+}
+
+
+i{
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: #ffffff;
+    color: #242943;
+    padding: 5px;
+}
+.contact a{
+    padding-left: 40px;
+    color: #c9cace;
+}
+
+.contact span{
+        padding-left: 40px; 
+        color: #c9cace;
+}
