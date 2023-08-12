@@ -1,0 +1,114 @@
+html,body{
+    margin:0;
+    padding:0;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+
+  #main{
+    height:auto;
+    display: block;
+    background-color: rgb(98 82 150);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 5rem;
+    background-image: url(images/overlay.png), linear-gradient(45deg, 
+    #e37682 15%, #5f4d93 85%);
+  }
+  .bi{
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: aliceblue;
+    color:rgb(140 201 240);
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  .header a{
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .header p{
+    display:block; 
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.65);
+    width: 27%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  
+h1{
+    font-weight: 300;
+    font-size: 2.5em;
+    line-height: 4em;
+    text-align: center;
+}
+
+#intro{
+    border: 1px solid white;
+    margin: 2em 9rem;
+    background-color: white;
+    width:76.9%;
+}
+
+.nav{
+    position: absolute;
+    background-color: #f7f7f7;
+    color:#636363;
+    cursor: default;
+    text-align: center;
+    width:76.8%;
+    margin: 0 auto;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 0.35em;
+}
+
+.nav ul li a{
+    display: inline-block;
+    height: 2.25em;
+    line-height: 2.25em;
+    padding: 0 1.25em;
+}
+
+a{
+    color:#636363;  
+    text-decoration: none;
+    text-align: center;
+}
+
+#first{
+    display: flex;
+}
+
+h2{
+    color: #636363;
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
+    line-height: 10rem;
+}
+
+.image{
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    padding: 0.25em;
+    margin-top: 6rem;
+    margin-right: 8rem;
+}
+
+.ipsum{
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+.ipsum p{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
