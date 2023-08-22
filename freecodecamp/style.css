@@ -1,0 +1,98 @@
+html,body{
+    margin:0;
+    padding:0;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+
+  #main{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8),
+                                      rgba(136, 136, 206, 0.7) ),
+                                      url(../Images/survey.jpg);
+    color: white;
+    font-size: 1.50rem;
+  }
+
+.free-code p{
+  font-style: italic;
+  }
+
+  form{
+    flex-direction: column;
+    display: flex;
+  }
+
+input[type="text"]{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  color: rgb(170, 170, 170);
+  border: 1px solid white;
+}
+
+.select{
+  color : white;
+  background-color:rgb(170, 170, 170);
+}
+
+#option{
+  color:black;
+  width: 50%;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+
+#selectoption{
+  width: 50%;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+
+.intro{
+  color : white;
+  background-color:rgb(170, 170, 170);
+}
+
+.checked{
+  display: flex;
+  flex-direction: column;
+}
+
+#submit{
+  display: block;
+  background-color: #37af65;
+  color: white;
+  padding: 0.75rem 2rem ;
+  text-align: center;
+  margin-top: 1rem;
+  width: 50%;
+  border: 1px solid #37af65;
+}
+
+textarea{
+  width: 50%;
+  border: 1px solid #37af65;
+}
+ .check-all{
+  color: #e4e4e4;
+ }
+
+ label{
+  margin-bottom: 0.75rem;
+ }
+
+ .survey-form{
+  background-color: #1b1b32 ;
+  width:50%;
+  margin-top: 4rem;
+  padding-left: 3rem;
+  margin-left: 25%;
+ }
+
+ .free-code{
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 0.75rem;
+ }
